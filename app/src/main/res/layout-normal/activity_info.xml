@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backosong"
+    tools:context=".info">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="464dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="463dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="784dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="374dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.116"
+        app:srcCompat="@drawable/callcenter" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="661dp" />
+
+    <Button
+        android:id="@+id/btnpolres"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/polres"
+        android:onClick="callpolres"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <Button
+        android:id="@+id/btnjashar"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/jasaraharja"
+        android:onClick="calljashar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnpolres"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btndishub"
+        android:layout_width="423dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/dishub"
+        android:onClick="calldishub"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnjashar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btndpu"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/dinpekum"
+        android:onClick="calldpu"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btndishub"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dinkes"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/dinkes"
+        android:onClick="calldinkes"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btndpu"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnbpbd"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bpbd"
+        android:onClick="callbpbd"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/dinkes"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnpmi"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/pmi"
+        android:onClick="callpmi"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnbpbd"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnrsi"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rsifatimah"
+        android:onClick="callrsi"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnpmi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btndamkar"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/damkar"
+        android:onClick="calldamkar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnrsi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnsatpolpp"
+        android:layout_width="442dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/satpopp"
+        android:onClick="callpolpp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btndamkar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="440dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline23"
+        app:layout_constraintVertical_bias="0.454"
+        app:srcCompat="@drawable/footer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
