@@ -4,208 +4,175 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backosong"
+    android:background="@drawable/background"
     tools:context=".info">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:id="@+id/rtlInfo1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_end="394dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="395dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="727dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="377dp"
-        android:layout_height="195dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.375"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:layout_constraintVertical_bias="0.005"
-        app:srcCompat="@drawable/headernomor" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="631dp" />
-
-    <Button
-        android:id="@+id/btnpolres"
-        android:layout_width="377dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/polres"
-        android:onClick="callpolres"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btnjashar"
-        android:layout_width="377dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/jasaraharja"
-        android:onClick="calljashar"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btnpolres"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btndishub"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/dishub"
-        android:onClick="calldishub"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btnjashar"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btndpu"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/dinpekum"
-        android:onClick="calldpu"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btndishub"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/dinkes"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/dinkes"
-        android:onClick="calldinkes"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btndpu"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btnbpbd"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/bpbd"
-        android:onClick="callbpbd"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/dinkes"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/btnpmi"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/pmi"
-        android:onClick="callpmi"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btnbpbd"
-        app:layout_constraintVertical_bias="0.0" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/callcenter" />
 
-    <Button
-        android:id="@+id/btnrsi"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/rsifatimah"
-        android:onClick="callrsi"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btnpmi"
-        app:layout_constraintVertical_bias="0.0" />
+    </RelativeLayout>
 
-    <Button
-        android:id="@+id/btndamkar"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/damkar"
-        android:onClick="calldamkar"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btnrsi"
-        app:layout_constraintVertical_bias="0.0" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/rtlInfo1">
 
-    <Button
-        android:id="@+id/btnsatpolpp"
-        android:layout_width="378dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/satpopp"
-        android:onClick="callpolpp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline23"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/btndamkar"
-        app:layout_constraintVertical_bias="0.0" />
+        <Button
+            android:id="@+id/btnpolres"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/polres"
+            android:onClick="callpolres"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"/>
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="380dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.588"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/guideline23"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/footer" />
+        <Button
+            android:id="@+id/btnjashar"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/btnpolres"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/jasaraharja"
+            android:onClick="calljashar" />
+
+        <Button
+            android:id="@+id/btndishub"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/btnjashar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/dishub"
+            android:onClick="calldishub" />
+
+        <Button
+            android:id="@+id/btndpu"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/btndishub"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/dinpekum"
+            android:onClick="calldpu" />
+
+        <Button
+            android:id="@+id/dinkes"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@id/btndpu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/dinkes"
+            android:onClick="calldinkes" />
+
+        <Button
+            android:id="@+id/btnbpbd"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/dinkes"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/bpbd"
+            android:onClick="callbpbd" />
+
+        <Button
+            android:id="@+id/btnpmi"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/btnbpbd"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/pmi"
+            android:onClick="callpmi" />
+
+        <Button
+            android:id="@+id/btnrsi"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@id/btnpmi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/rsifatimah"
+            android:onClick="callrsi" />
+
+        <Button
+            android:id="@+id/btndamkar"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@id/btnrsi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/damkar"
+            android:onClick="calldamkar" />
+
+        <Button
+            android:id="@+id/btnsatpolpp"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@id/btndamkar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/satpopp"
+            android:onClick="callpolpp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_below="@id/btnsatpolpp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/footer" />
+
+    </RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

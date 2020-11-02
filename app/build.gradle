@@ -5,12 +5,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "id.co.gesangmultimedia.sergap"
-        minSdkVersion 16
-        targetSdkVersion 29
+        applicationId "id.co.gesangmultimedia.sarpolrescilacap"
+        minSdkVersion 23
+        targetSdkVersion 30
         versionCode 5
         versionName "2.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -32,21 +32,21 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.google.android.material:material:1.2.1'
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test:runner:1.3.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
-    androidTestImplementation 'androidx.test:rules:1.3.1-alpha01'
-    implementation 'com.google.android.play:core:1.8.2'
+    androidTestImplementation 'androidx.test:rules:1.3.1-alpha02'
+    implementation 'com.google.android.play:core:1.8.3'
 
     // Auto Complete Place & location
     implementation 'com.google.android.gms:play-services-places:17.0.0'
     implementation 'com.google.android.gms:play-services-location:17.1.0'
 
     // Maps Utils
-    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'com.google.maps.android:android-maps-utils:2.0.3'
 
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'

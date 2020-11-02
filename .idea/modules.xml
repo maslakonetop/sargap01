@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="sargap01/app" />
-      <module fileurl="file://$PROJECT_DIR$/sargap01.iml" filepath="$PROJECT_DIR$/sargap01.iml" group="sargap01" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sarpolrescilacap.iml" filepath="$PROJECT_DIR$/.idea/modules/sarpolrescilacap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/sarpolrescilacap.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/sarpolrescilacap.app.iml" />
     </modules>
   </component>
 </project>

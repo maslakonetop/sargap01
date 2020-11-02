@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.co.gesangmultimedia.sargap01">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.co.gesangmultimedia.sarpolrescilacap">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
-    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
 
     <meta-data
         android:name="com.google.android.geo.API_KEY"
@@ -21,18 +23,18 @@
         android:roundIcon="@mipmap/logoicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name="id.co.gesangmultimedia.sargap01.info"
+        <activity android:name="id.co.gesangmultimedia.sarpolrescilacap.info"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden"
             ></activity>
-        <activity android:name="id.co.gesangmultimedia.sargap01.splashscreen">
+        <activity android:name="id.co.gesangmultimedia.sarpolrescilacap.splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="id.co.gesangmultimedia.sargap01.MainActivity"
+        <activity android:name="id.co.gesangmultimedia.sarpolrescilacap.MainActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden"
             />
