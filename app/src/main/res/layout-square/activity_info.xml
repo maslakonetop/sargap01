@@ -18,16 +18,18 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
+            android:layout_width="170dp"
             android:layout_height="195dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/callcenter" />
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/logoicon" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/rtlInfo1">
 
@@ -35,11 +37,11 @@
             android:id="@+id/btnpolres"
             android:layout_width="match_parent"
             android:layout_height="42dp"
-            android:background="@drawable/polres"
-            android:onClick="callpolres"
-            android:layout_marginTop="5dp"
             android:layout_marginStart="1dp"
-            android:layout_marginEnd="1dp"/>
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/polres"
+            android:onClick="callpolres" />
 
         <Button
             android:id="@+id/btnjashar"

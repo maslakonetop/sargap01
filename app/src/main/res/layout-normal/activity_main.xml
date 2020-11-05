@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bgdepan"
     tools:context=".MainActivity">
 
     <Button
@@ -13,10 +13,10 @@
         android:layout_height="268dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="242dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="221dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="338dp"
         android:background="@drawable/buttonsargap"
         android:onClick="panggil"
         android:visibility="visible"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="id.co.gesangmultimedia.sarpolrescilacap">
+    package="id.co.gesangmultimedia.sergap">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -23,18 +23,18 @@
         android:roundIcon="@mipmap/logoicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name="id.co.gesangmultimedia.sarpolrescilacap.info"
+        <activity android:name="id.co.gesangmultimedia.sergap.info"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden"
             ></activity>
-        <activity android:name="id.co.gesangmultimedia.sarpolrescilacap.splashscreen">
+        <activity android:name="id.co.gesangmultimedia.sergap.splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="id.co.gesangmultimedia.sarpolrescilacap.MainActivity"
+        <activity android:name="id.co.gesangmultimedia.sergap.MainActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden"
             />

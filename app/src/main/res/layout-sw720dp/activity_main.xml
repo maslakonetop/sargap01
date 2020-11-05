@@ -4,26 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bgdepan"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnpgl"
-        android:layout_width="255dp"
-        android:layout_height="268dp"
+        android:layout_width="348dp"
+        android:layout_height="366dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="242dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="221dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="681dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="660dp"
         android:background="@drawable/buttonsargap"
         android:onClick="panggil"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         tools:visibility="visible" />
 
     <Button
