@@ -1,4 +1,13 @@
 package id.co.gesangmultimedia.sergap;
+/*
+    Create by Antony Tri Susanto Itran for Gesang Multimedia
+    Sergap Project 2019
+    Sargap01 Project Februari 2020
+    SAR Polres Cilacap Oktober 2020
+    Client menelpon, menyimpan data Lat Long di Firebase
+    Dialog box alert muncul, simpan ke Firebase
+    Dilanjutkan dengan menelpon ke nomor yang sudah ditentukan
+ */
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
@@ -80,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
         };
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Anda yakin akan menelpon, Anda akan dikenakan biaya standar").setPositiveButton("Ya", dialogClickListener)
+        builder.setMessage("Anda yakin akan menelpon, \nAnda akan dikenakan biaya standar")
+                .setPositiveButton("Ya", dialogClickListener)
                 .setNegativeButton("Tidak", dialogClickListener).show();
     }
 

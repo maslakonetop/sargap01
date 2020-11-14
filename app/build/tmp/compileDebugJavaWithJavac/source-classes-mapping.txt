@@ -1,0 +1,9 @@
+id/co/gesangmultimedia/sergap/BuildConfig.java
+ id.co.gesangmultimedia.sergap.BuildConfig
+id/co/gesangmultimedia/sergap/info.java
+ id.co.gesangmultimedia.sergap.info
+id/co/gesangmultimedia/sergap/splashscreen.java
+ id.co.gesangmultimedia.sergap.splashscreen
+ id.co.gesangmultimedia.sergap.splashscreen$1
+id/co/gesangmultimedia/sergap/MainActivity.java
+ id.co.gesangmultimedia.sergap.MainActivity
