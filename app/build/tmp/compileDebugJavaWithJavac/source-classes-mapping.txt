@@ -1,3 +1,5 @@
+id/co/gesangmultimedia/sergap/About.java
+ id.co.gesangmultimedia.sergap.About
 id/co/gesangmultimedia/sergap/BuildConfig.java
  id.co.gesangmultimedia.sergap.BuildConfig
 id/co/gesangmultimedia/sergap/info.java
@@ -7,3 +9,7 @@ id/co/gesangmultimedia/sergap/splashscreen.java
  id.co.gesangmultimedia.sergap.splashscreen$1
 id/co/gesangmultimedia/sergap/MainActivity.java
  id.co.gesangmultimedia.sergap.MainActivity
+ id.co.gesangmultimedia.sergap.MainActivity$1
+ id.co.gesangmultimedia.sergap.MainActivity$2
+ id.co.gesangmultimedia.sergap.MainActivity$3
+ id.co.gesangmultimedia.sergap.MainActivity$4

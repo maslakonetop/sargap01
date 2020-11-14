@@ -18,7 +18,8 @@
         android:name="com.google.android.geo.API_KEY"
         android:value="AIzaSyB44fyziuOnxs2oBKFIkVipEOFAs2sNM70" />
 
-    <!-- Include required permissions for Google Maps API to run. -->
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -43,6 +44,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity android:name="id.co.gesangmultimedia.sergap.About" />
         <activity
             android:name="id.co.gesangmultimedia.sergap.info"
             android:configChanges="orientation|keyboardHidden"
@@ -59,7 +61,20 @@
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
 
-        <!-- Needs to be explicitly declared on P+ -->
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
@@ -84,18 +99,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <service
-            android:name="com.google.firebase.components.ComponentDiscoveryService"
-            android:directBootAware="true"
-            android:exported="false" >
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service>
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"

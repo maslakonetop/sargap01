@@ -1,4 +1,4 @@
-#Sat Nov 14 15:25:55 ICT 2020
+#Sat Nov 14 20:14:48 ICT 2020
 base.0=D\:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -12,8 +12,11 @@ package id.co.gesangmultimedia.sergap;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.PopupMenu;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -25,8 +28,10 @@ import android.os.Bundle;
 import android.telecom.PhoneAccountHandle;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.lang.reflect.Method;
@@ -73,6 +78,48 @@ public class MainActivity extends AppCompatActivity {
                         1);
             }
         }
+        ImageButton imb_popupMenu = findViewById(R.id.popup);
+        imb_popupMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showPopupMenu(v);
+            }
+        });
+        imb_popupMenu = findViewById(R.id.popup);
+        imb_popupMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showPopupMenu(v);
+            }
+        });
+        imb_popupMenu = findViewById(R.id.home);
+        imb_popupMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showBeranda(v);
+            }
+        });
+        imb_popupMenu = findViewById(R.id.exit);
+        imb_popupMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showMetu(v);
+            }
+        });
+    }
+
+    private void showMetu(View v) {
+        finish();
+        System.exit(0);
+    }
+
+    private void showBeranda(View v) {
+        Intent beranda = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(beranda);
+    }
+    private void showPopupMenu(View v) {
+        Intent abud = new Intent(MainActivity.this, About.class);
+        startActivity(abud);
     }
 
     private void tampilDialog() {

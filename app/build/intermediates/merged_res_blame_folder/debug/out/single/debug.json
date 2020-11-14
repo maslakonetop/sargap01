@@ -8,6 +8,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\natura.ttf"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_polresclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\polresclp.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotocondensedregulara.ttf.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotocondensedregulara.ttf"
     },
@@ -20,16 +24,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\singkatan.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_italic.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\roboto_italic.xml"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_damkar.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\damkar.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pemdaclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\pemdaclp.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_italic.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\roboto_italic.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tombolmenu.webp.flat",
@@ -40,12 +40,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotomediuma.ttf"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tanya.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\tanya.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_pocillantas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\pocillantas.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_damkar.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\damkar.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tanya.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\tanya.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_satpol.jpg.flat",
@@ -54,6 +58,10 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logorsi.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logorsi.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_phonecalls.png.flat",
@@ -96,10 +104,6 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\jasaraharja.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_polresclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\polresclp.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_damkar.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\damkar.webp"
     },
@@ -108,16 +112,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\polres.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_anteric.otf.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\anteric.otf"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_satpopp.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\satpopp.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_dishub.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\dishub.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_anteric.otf.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\anteric.otf"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_polres.webp.flat",
@@ -176,12 +180,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\basarnas.webp"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_background.xml"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sargapsplash.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\sargapsplash.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_background.xml"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_whitbg.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\rounded_whitbg.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logoicon.png.flat",
@@ -190,6 +198,10 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotolightitalia.ttf.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotolightitalia.ttf"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_wbk.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\wbk.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -220,12 +232,24 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\singkatan.png"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logorsud.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logorsud.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_buttonsargap.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\buttonsargap.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_pbpbd.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\pbpbd.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logosatpolpp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logosatpolpp.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_pertamedika.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\pertamedika.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pemdaclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\pemdaclp.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_send.xml.flat",
@@ -304,8 +328,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\damkar.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_pemdaclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\pemdaclp.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_polresclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\polresclp.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_pemdaclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\pemdaclp.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_satpol.jpg.flat",
@@ -336,6 +364,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\polres.webp"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logodinkes.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logodinkes.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -344,20 +376,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-normal\\activity_splashscreen.xml"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_polresclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\polresclp.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_rounded_corner.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\rounded_corner.xml"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_splashscreen.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-hdpi\\activity_splashscreen.xml"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_tanya.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\tanya.png"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_splashscreen.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-hdpi\\activity_splashscreen.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_satpol.jpg.flat",
@@ -374,6 +402,14 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_ic_launcher_background.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logopmi.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logopmi.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logodpu.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logodpu.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dinpekum.webp.flat",
@@ -404,6 +440,14 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotolighta.ttf"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_popup.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout\\menu_popup.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_pocillantas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\pocillantas.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_satpol.jpg.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\satpol.jpg"
     },
@@ -416,6 +460,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\singkatan.png"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_promoter.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\promoter.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_side_nav_bar.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\side_nav_bar.xml"
     },
@@ -424,12 +472,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-v24\\custom_progress_bar.xml"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_minyanouvellerg.ttf.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\minyanouvellerg.ttf"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_resclp.jpg.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\resclp.jpg"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_minyanouvellerg.ttf.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\minyanouvellerg.ttf"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_info.jpeg.flat",
@@ -444,16 +492,24 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\side_nav_bar.xml"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_manage.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_pocillantas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\pocillantas.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_logoicon.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\logoicon.webp"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_manage.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_activity_splashscreen.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-large\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_wbk.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\wbk.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bpbd.webp.flat",
@@ -476,12 +532,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotoitalica.ttf"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_rsifatimah.webp.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\rsifatimah.webp"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pocillantas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\pocillantas.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_pemdaclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\pemdaclp.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_rsifatimah.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\rsifatimah.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_backosong.jpg.flat",
@@ -504,6 +560,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_polresclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\polresclp.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dinkes.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\dinkes.webp"
     },
@@ -524,8 +584,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\resclp.jpg"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_pemdaclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\pemdaclp.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_twotone_menu_24.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\ic_twotone_menu_24.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_santamaria.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\santamaria.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_phonecalls.png.flat",
@@ -544,24 +612,24 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\keepsmiling.ttf"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonsargap.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\buttonsargap.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dinpekum.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\dinpekum.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonsargap.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\buttonsargap.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_phonecalls.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\phonecalls.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_polresclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\polresclp.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_tombolmenu.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\tombolmenu.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_wbk.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\wbk.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_footer.webp.flat",
@@ -600,6 +668,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotocondensedbolditalica.ttf"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pocillantas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\pocillantas.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pbpbd.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\pbpbd.png"
     },
@@ -616,20 +688,20 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\resclp.jpg"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-land\\activity_main.xml"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_magnificent1.ttf.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\magnificent1.ttf"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_activity_main.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-land\\activity_main.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logoicon.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logoicon.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_activity_main.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-large\\activity_main.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_damkar.webp.flat",
@@ -644,16 +716,24 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\sargapsplash.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_share.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pemdaclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\pemdaclp.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_logorsi.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\logorsi.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_dinpekum.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\dinpekum.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_logorsi.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\logorsi.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_share.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pocilicon.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\pocilicon.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pmi.webp.flat",
@@ -668,8 +748,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-small\\activity_splashscreen.xml"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_promoter.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\promoter.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tombolsergap.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\tombolsergap.png"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_pocillantas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\pocillantas.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_tombolmenu.webp.flat",
@@ -712,20 +800,36 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\polres.webp"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_pemdaclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\pemdaclp.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wbk.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\wbk.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_info.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-land\\activity_info.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wbk.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\wbk.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_satpopp.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\satpopp.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logoicon.webp.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\logoicon.webp"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logodamkar.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logodamkar.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_singkatan.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\singkatan.png"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logoicon.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\logoicon.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_pmi.webp.flat",
@@ -736,12 +840,24 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\bgdepan.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_main.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_promoter.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\promoter.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_polresclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\polresclp.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_tanya.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\tanya.png"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_main.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logodishub.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logodishub.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_dinkes.webp.flat",
@@ -752,8 +868,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\arialbi.ttf"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_promoter.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\promoter.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_info.jpeg.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\info.jpeg"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_promoter.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\promoter.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_background.png.flat",
@@ -762,6 +886,10 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_ic_launcher_background.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_satpol.jpg.flat",
@@ -784,8 +912,8 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\bgdepan.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pemdaclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\pemdaclp.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_twotone_info_24.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\ic_twotone_info_24.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_backosong.jpg.flat",
@@ -796,12 +924,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\bpbd.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotocondensedlighta.ttf.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotocondensedlighta.ttf"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_singkatan.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\singkatan.png"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotocondensedlighta.ttf.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotocondensedlighta.ttf"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_sargapsplash.png.flat",
@@ -816,16 +944,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\dishub.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_pemdaclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\pemdaclp.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_twotone_phone_android_24.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\ic_twotone_phone_android_24.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_footer.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\footer.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_polresclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\polresclp.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
@@ -836,16 +964,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_info.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-xlarge\\activity_info.xml"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_arial.ttf.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\arial.ttf"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_polresclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\polresclp.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_info.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-xlarge\\activity_info.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_phonecalls.png.flat",
@@ -876,16 +1000,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-small\\activity_info.xml"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_wbk.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\wbk.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tombolmenu.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\tombolmenu.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_arialni.TTF.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\arialni.TTF"
-    },
-    {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logorsi.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logorsi.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_pbpbd.png.flat",
@@ -896,12 +1020,12 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\sweetcandy.ttf"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotocondensedbolda.ttf.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotocondensedbolda.ttf"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_tombolmenu.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\tombolmenu.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotocondensedbolda.ttf.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotocondensedbolda.ttf"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rsifatimah.webp.flat",
@@ -924,8 +1048,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\dpu.webp"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_basarnas.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\basarnas.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_info.jpeg.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\info.jpeg"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_jasharlogo.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\jasharlogo.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_rsifatimah.webp.flat",
@@ -938,6 +1070,10 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_dishub.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\dishub.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_dpu.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\dpu.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_splashscreen.xml.flat",
@@ -960,20 +1096,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\buttonsargap.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_pemdaclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\pemdaclp.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_resclp.jpg.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\resclp.jpg"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_dinkes.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\dinkes.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotoblackitalic.ttf.flat",
@@ -1004,16 +1136,16 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\logorsi.png"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_promoter.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\promoter.webp"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-small_activity_main.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-small\\activity_main.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotothinitalic_0.ttf.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotothinitalic_0.ttf"
-    },
-    {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_polresclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\polresclp.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_pertamedika.webp.flat",
@@ -1024,10 +1156,6 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\satpopp.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_polresclp.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\polresclp.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_logorsi.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\logorsi.png"
     },
@@ -1036,24 +1164,24 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\info.jpeg"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_singkatan.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\singkatan.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_telpon.png.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\telpon.png"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_singkatan.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\singkatan.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_logoicon.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-xlarge\\logoicon.webp"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_backosong.jpg.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\backosong.jpg"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xlarge_tombolsergap.png.flat",
@@ -1100,6 +1228,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\rmtyperightermedium.ttf"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bataltelpon.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\bataltelpon.png"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jasaraharja.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\jasaraharja.webp"
     },
@@ -1108,8 +1240,8 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\bgdepan.png"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bataltelpon.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable\\bataltelpon.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-normal_logobpbd.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\logobpbd.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotoblackitalica.ttf.flat",
@@ -1124,12 +1256,20 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\sargapsplash.png"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_sargapsplash.png.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\sargapsplash.png"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-normal_activity_info.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-normal\\activity_info.xml"
     },
     {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_sargapsplash.png.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-large\\sargapsplash.png"
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_polresclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\polresclp.webp"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small_pemdaclp.webp.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-small\\pemdaclp.webp"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pmi.webp.flat",

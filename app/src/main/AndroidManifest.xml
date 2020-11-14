@@ -7,7 +7,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
-    <uses-permission android:name="android.permission.CALL_PRIVILEGED"
+    <uses-permission
+        android:name="android.permission.CALL_PRIVILEGED"
         tools:ignore="ProtectedPermissions" />
 
     <meta-data
@@ -23,22 +24,22 @@
         android:roundIcon="@mipmap/logoicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name="id.co.gesangmultimedia.sergap.info"
-            android:screenOrientation="portrait"
+        <activity android:name=".About"></activity>
+        <activity
+            android:name=".info"
             android:configChanges="orientation|keyboardHidden"
-            ></activity>
-        <activity android:name="id.co.gesangmultimedia.sergap.splashscreen">
+            android:screenOrientation="portrait" />
+        <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="id.co.gesangmultimedia.sergap.MainActivity"
-            android:screenOrientation="portrait"
+        <activity
+            android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden"
-            />
-
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
