@@ -1,11 +1,13 @@
 package id.co.gesangmultimedia.sergap;
 
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -15,9 +17,12 @@ import android.telecom.PhoneAccountHandle;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import java.lang.reflect.Method;
+
+import static id.co.gesangmultimedia.sergap.R.drawable.ic_twotone_phone_android_24;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +66,24 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void tampilDialog() {
+        DialogInterface.OnClickListener dialogClickListener = (dialog, which) -> {
+            switch (which){
+                case DialogInterface.BUTTON_POSITIVE:
+                    panggil(null);
+                    break;
+
+                case DialogInterface.BUTTON_NEGATIVE:
+                    //No button clicked
+                    break;
+            }
+        };
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Anda yakin akan menelpon, Anda akan dikenakan biaya standar").setPositiveButton("Ya", dialogClickListener)
+                .setNegativeButton("Tidak", dialogClickListener).show();
+    }
+
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP_MR1)
     public void panggil(View view) {
         String nomor = "+62282541110";
@@ -93,5 +116,9 @@ public class MainActivity extends AppCompatActivity {
     public void info(View view) {
         Intent buka = new Intent(MainActivity.this, info.class);
         startActivity(buka);
+    }
+
+    public void telpon(View view) {
+        tampilDialog();
     }
 }
