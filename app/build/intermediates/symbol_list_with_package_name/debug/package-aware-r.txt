@@ -2195,6 +2195,8 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_otp
+id et_phone
 id exit
 id exitUntilCollapsed
 id expand_activities_button
@@ -2242,6 +2244,7 @@ id ivLogo
 id ivLogoAbout
 id ivLogoBpbd
 id ivLogoDamkar
+id ivLogoReg
 id ivLogoRsi
 id ivLogoSatpol
 id ivPemda
@@ -2371,6 +2374,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pb_bar
 id peekHeight
 id percent
 id pin
@@ -2401,6 +2405,11 @@ id rtlAbout1
 id rtlAbout2
 id rtlAbout3
 id rtlInfo1
+id rtlOtp
+id rtlOtp1
+id rtlRegTel
+id rtlRegTel1
+id rtlRegTel2
 id rtlSmInfo
 id satellite
 id save_non_transition_alpha
@@ -2425,6 +2434,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id send_otp_btn
 id shortcut
 id showCustom
 id showHome
@@ -2502,6 +2512,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvAbout
+id tvJudulRegtel
+id tvLat
+id tvLong
 id tvNoTelp
 id tvPenjelasan
 id unchecked
@@ -2509,6 +2522,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id verify_btn
 id view_offset_helper
 id visible
 id volume_item_container
@@ -2591,6 +2605,8 @@ layout abc_tooltip
 layout activity_about
 layout activity_info
 layout activity_main
+layout activity_o_t_p
+layout activity_register_telpon
 layout activity_splashscreen
 layout amu_info_window
 layout amu_text_bubble

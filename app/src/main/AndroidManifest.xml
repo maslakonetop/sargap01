@@ -24,7 +24,8 @@
         android:roundIcon="@mipmap/logoicon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".About"></activity>
+        <activity android:name=".RegisterTelpon" />
+        <activity android:name=".About" />
         <activity
             android:name=".info"
             android:configChanges="orientation|keyboardHidden"

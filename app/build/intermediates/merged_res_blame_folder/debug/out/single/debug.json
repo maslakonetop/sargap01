@@ -436,6 +436,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-normal\\background.png"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_telpon.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout\\activity_register_telpon.xml"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\font_robotolighta.ttf.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\robotolighta.ttf"
     },
@@ -650,6 +654,10 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_side_nav_bar.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_o_t_p.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout\\activity_o_t_p.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_side_nav_bar.xml.flat",

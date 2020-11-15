@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "159913034012-ftcm4sm83u06ptmt523cu57ts66h6gh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.gesangmultimedia.sergap",
+            "certificate_hash": "b6e79334257945c799948316724d48fbfd89019e"
+          }
+        },
+        {
           "client_id": "159913034012-s79nfh5tgn60vqa0v8790fse4p79rvav.apps.googleusercontent.com",
           "client_type": 3
         }
