@@ -77,7 +77,7 @@ public class RegisterTelpon extends AppCompatActivity {
             pb_bar.setVisibility(View.GONE);
             String mVerificationId = verificationId;
             Log.e("MainActivity" , "Verification id : " + verificationId);
-            Intent intent = new Intent(RegisterTelpon.this , OTPActivity.class);
+            Intent intent = new Intent(RegisterTelpon.this , OtpActivity.class);
             intent.putExtra("verificationId" , mVerificationId);
             startActivity(intent);
             finish();

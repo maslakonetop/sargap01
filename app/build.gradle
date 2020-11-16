@@ -12,8 +12,8 @@ android {
         applicationId "id.co.gesangmultimedia.sergap"
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 6
-        versionName "3.0"
+        versionCode 7
+        versionName "3.1 Alpha"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

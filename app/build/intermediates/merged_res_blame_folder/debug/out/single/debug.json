@@ -32,6 +32,10 @@
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\font\\roboto_italic.xml"
     },
     {
+        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_otp.xml.flat",
+        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout-land\\activity_otp.xml"
+    },
+    {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tombolmenu.webp.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\tombolmenu.webp"
     },
@@ -654,10 +658,6 @@
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_side_nav_bar.xml.flat",
         "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\drawable-hdpi\\side_nav_bar.xml"
-    },
-    {
-        "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_o_t_p.xml.flat",
-        "source": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\src\\main\\res\\layout\\activity_o_t_p.xml"
     },
     {
         "merged": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large_side_nav_bar.xml.flat",

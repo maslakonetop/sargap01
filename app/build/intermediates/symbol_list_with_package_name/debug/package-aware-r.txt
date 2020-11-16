@@ -2405,8 +2405,6 @@ id rtlAbout1
 id rtlAbout2
 id rtlAbout3
 id rtlInfo1
-id rtlOtp
-id rtlOtp1
 id rtlRegTel
 id rtlRegTel1
 id rtlRegTel2
@@ -2605,7 +2603,7 @@ layout abc_tooltip
 layout activity_about
 layout activity_info
 layout activity_main
-layout activity_o_t_p
+layout activity_otp
 layout activity_register_telpon
 layout activity_splashscreen
 layout amu_info_window

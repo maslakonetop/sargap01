@@ -19,7 +19,7 @@ public class splashscreen extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent home = new Intent(splashscreen.this, MainActivity.class);
+                Intent home = new Intent(splashscreen.this, RegisterTelpon.class);
                 startActivity(home);
                 finish();
             }
