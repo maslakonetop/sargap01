@@ -45,18 +45,16 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/logoicon"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity android:name="id.co.gesangmultimedia.sergap.WelcomeActivity" />
+
         <meta-data
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
         <activity android:name="id.co.gesangmultimedia.sergap.PanggilActivity" />
         <activity android:name="id.co.gesangmultimedia.sergap.Beranda" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="id.co.gesangmultimedia.sergap.TambahUser"
@@ -66,7 +64,13 @@
             android:name="id.co.gesangmultimedia.sergap.info"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name="id.co.gesangmultimedia.sergap.splashscreen" />
+        <activity android:name="id.co.gesangmultimedia.sergap.splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="id.co.gesangmultimedia.sergap.MainActivity"
             android:configChanges="orientation|keyboardHidden"

@@ -1,0 +1,4 @@
+#Wed Mar 10 20:18:39 ICT 2021
+base.0=D\:\\Project Aplikasi\\ProjectBerjalan\\Mobile\\sarpolrescilacap\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

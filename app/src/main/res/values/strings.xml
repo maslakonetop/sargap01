@@ -35,4 +35,19 @@ Adapun pihak yang bergabung dalam pendukung pelayanan emergency terpadu di Kab.C
     <string name="realtimegetGPStxt">Real Time Location</string>
     <string name="infotext">Get real time position from deveice and send to a server witnin a 30 seconds interval. Receive acknowledgement from server when position is received</string>
     <string name="title_activity_menu_u_i">MenuUI</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Sistem Darurat Baru</string>
+    <string name="slide_1_desc">Kini masyarakat bisa menghubungi melalui Whatsapp dan SMS</string>
+
+    <string name="slide_2_title">SOSMED</string>
+    <string name="slide_2_desc">Terhubung dengan Sosmed Polres Cilacap</string>
+
+    <string name="slide_3_title">PERLINDUNGAN REAL TIME</string>
+    <string name="slide_3_desc">Sistem pelacakan yang komperehensif</string>
+
+    <string name="slide_4_title">MENYAPA MASYARAKAT</string>
+    <string name="slide_4_desc">Dengan Tribrata News, masyarakat dapat langsung mengetahui berita terkini</string>
 </resources>

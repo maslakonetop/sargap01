@@ -19,6 +19,7 @@
 -keep class id.co.gesangmultimedia.sergap.PanggilActivity { <init>(); }
 -keep class id.co.gesangmultimedia.sergap.RegisterTelpon { <init>(); }
 -keep class id.co.gesangmultimedia.sergap.TambahUser { <init>(); }
+-keep class id.co.gesangmultimedia.sergap.WelcomeActivity { <init>(); }
 -keep class id.co.gesangmultimedia.sergap.info { <init>(); }
 -keep class id.co.gesangmultimedia.sergap.splashscreen { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }

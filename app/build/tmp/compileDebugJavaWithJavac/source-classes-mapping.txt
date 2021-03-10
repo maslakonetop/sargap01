@@ -38,15 +38,23 @@ id/co/gesangmultimedia/sergap/FragmentProfile.java
  id.co.gesangmultimedia.sergap.FragmentProfile
 id/co/gesangmultimedia/sergap/LatLong.java
  id.co.gesangmultimedia.sergap.LatLong
+id/co/gesangmultimedia/sergap/BuildConfig.java
+ id.co.gesangmultimedia.sergap.BuildConfig
 id/co/gesangmultimedia/sergap/Beranda.java
  id.co.gesangmultimedia.sergap.Beranda
 id/co/gesangmultimedia/sergap/KoneksiActivity.java
  id.co.gesangmultimedia.sergap.KoneksiActivity
+id/co/gesangmultimedia/sergap/SargapActivity.java
+ id.co.gesangmultimedia.sergap.SargapActivity
 LatLong.java
  LatLong
 id/co/gesangmultimedia/sergap/AppController.java
  id.co.gesangmultimedia.sergap.AppController
-id/co/gesangmultimedia/sergap/SargapActivity.java
- id.co.gesangmultimedia.sergap.SargapActivity
-id/co/gesangmultimedia/sergap/BuildConfig.java
- id.co.gesangmultimedia.sergap.BuildConfig
+id/co/gesangmultimedia/sergap/WelcomeActivity.java
+ id.co.gesangmultimedia.sergap.WelcomeActivity
+ id.co.gesangmultimedia.sergap.WelcomeActivity$1
+ id.co.gesangmultimedia.sergap.WelcomeActivity$2
+ id.co.gesangmultimedia.sergap.WelcomeActivity$3
+ id.co.gesangmultimedia.sergap.WelcomeActivity$MyViewPagerAdapter
+id/co/gesangmultimedia/sergap/PrefManager.java
+ id.co.gesangmultimedia.sergap.PrefManager
