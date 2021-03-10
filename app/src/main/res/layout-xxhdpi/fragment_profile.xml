@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FragmentProfile">
+
+    <RelativeLayout
+        android:id="@+id/rtlProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:ignore="HardcodedText">
+        <TextView
+            android:id="@+id/tvProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoblack"
+            android:layout_centerHorizontal="true"
+            android:textSize="35sp"
+            android:text="Guest"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rtlDetilProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/myPict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/userbig"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:id="@+id/llDetailProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/myPict"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvDetailNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/ghostwhite"
+                tools:ignore="HardcodedText" />
+            <EditText
+                android:id="@+id/dtDetailNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="GUEST"
+                android:fontFamily="@font/robotoblack"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/tvDetailHp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No HP"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/ghostwhite"
+                tools:ignore="HardcodedText" />
+            <EditText
+                android:id="@+id/etDetailHp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:text="085869696900"
+                android:fontFamily="@font/robotoblack"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/tvDetailEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/ghostwhite"
+                tools:ignore="HardcodedText" />
+            <EditText
+                android:id="@+id/etDetailEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:id="@+id/tvDetailAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textSize="20sp"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/ghostwhite"
+                tools:ignore="HardcodedText" />
+            <EditText
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/rtlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"
+        tools:ignore="HardcodedText">
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/robotoblack"
+            android:background="@drawable/tahu_bulat"/>
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus Akun"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/tahu_bulat"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llBelumKenal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="555dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnBelumKenal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tekan Tombol Ini Untuk Mengkonfirmasi Indetitas Anda"
+            android:background="@drawable/tahu_bulat"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</FrameLayout>

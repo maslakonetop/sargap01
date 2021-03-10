@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Facebook"
+        android:icon="@drawable/facebook"
+        android:id="@+id/memu_facebook"/>
+
+    <item android:title="Instagram"
+        android:icon="@drawable/instagram"
+        android:id="@+id/memu_instagram"/>
+
+    <item android:title="Twitter"
+        android:icon="@drawable/twitter"
+        android:id="@+id/memu_twitter"/>
+</menu>

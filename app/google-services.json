@@ -8,6 +8,80 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:159913034012:android:b713a4097723ea1dc87ad9",
+        "android_client_info": {
+          "package_name": "id.co.gesangmultimedia.saroperator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159913034012-8vp3qoimrdhv8dcjdtfmeo56jssmqt1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.gesangmultimedia.saroperator",
+            "certificate_hash": "b6e79334257945c799948316724d48fbfd89019e"
+          }
+        },
+        {
+          "client_id": "159913034012-s79nfh5tgn60vqa0v8790fse4p79rvav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrPcn7_zGkxbxSZYJdnn-GY_mvhBFwTjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159913034012-s79nfh5tgn60vqa0v8790fse4p79rvav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159913034012:android:a368dd4b41e5c418c87ad9",
+        "android_client_info": {
+          "package_name": "id.co.gesangmultimedia.sarpawas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159913034012-c8bk4k5h5j3icau0obgvp078j3r3f13k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.gesangmultimedia.sarpawas",
+            "certificate_hash": "b6e79334257945c799948316724d48fbfd89019e"
+          }
+        },
+        {
+          "client_id": "159913034012-s79nfh5tgn60vqa0v8790fse4p79rvav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrPcn7_zGkxbxSZYJdnn-GY_mvhBFwTjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159913034012-s79nfh5tgn60vqa0v8790fse4p79rvav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:159913034012:android:08830741d8d6f466c87ad9",
         "android_client_info": {
           "package_name": "id.co.gesangmultimedia.sergap"
@@ -20,6 +94,14 @@
           "android_info": {
             "package_name": "id.co.gesangmultimedia.sergap",
             "certificate_hash": "b6e79334257945c799948316724d48fbfd89019e"
+          }
+        },
+        {
+          "client_id": "159913034012-trt0kv4kvpa6au206mlmgr44cgdu5j58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.co.gesangmultimedia.sergap",
+            "certificate_hash": "5c59afe9e0e35863127d643d7f6edc7e15ed7897"
           }
         },
         {

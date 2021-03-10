@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".FragmentUtama">
+    <include
+        layout="@layout/menu_atas"/>
+
+    <RelativeLayout
+        android:id="@+id/rtlBlokUtama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+        <TextView
+            android:id="@+id/tvUtama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukan Nomor Telpon Anda"
+            android:fontFamily="@font/robotoblack"
+            android:textSize="25sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/ghostwhite"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/tvPlesenamdua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvUtama"
+            android:text="+62"
+            android:fontFamily="@font/robotoblacka"
+            android:textSize="25sp"
+            android:textColor="@color/ghostwhite"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/edtNomerku"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_below="@+id/tvUtama"
+            android:fontFamily="@font/robotoblacka"
+            android:background="@color/holo_red_light"
+            android:textSize="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@id/tvPlesenamdua"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rtlSar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rtlBlokUtama">
+        <Button
+            android:id="@+id/btnSargap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonsargap" />
+    </RelativeLayout>
+
+</RelativeLayout>

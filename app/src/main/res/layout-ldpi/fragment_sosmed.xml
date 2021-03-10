@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Sosmed">
+
+    <RelativeLayout
+        android:id="@+id/rtlInfo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tribratanews"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tvNoTelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sosial Media Polres Cilacap"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFAF0"
+            android:textSize="25sp"
+            android:layout_below="@+id/btnLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/arial"
+            android:background="@drawable/rounded_corner"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llSosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtlInfo1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal"
+        tools:ignore="WebViewLayout">
+
+       <WebView
+           android:id="@+id/wvTribrata"
+           android:layout_width="match_parent"
+           android:layout_height="350dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rtlSosmed"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/llSosmed">
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/facebook"
+            android:layout_marginStart="25dp"/>
+
+        <Button
+            android:id="@+id/btnInstagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/btnFacebook"
+            android:background="@drawable/instagram" />
+
+        <Button
+            android:id="@+id/btnTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/twitter"
+            android:layout_toEndOf="@+id/btnInstagram"
+            android:layout_marginStart="50dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PanggilActivity">
+
+    <TextView
+        android:id="@+id/tvPanggilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoblack"
+        android:text="Silahkan Pilih Cara Menghubungi Kami"
+        android:textAlignment="center"
+        android:textColor="@color/ghostwhite"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="HardcodedText" />
+
+    <RelativeLayout
+        android:id="@+id/rtlTelpon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/tvPanggilan">
+
+        <LinearLayout
+            android:id="@+id/llTelpon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibPanggil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/telpon"
+                android:clickable="false"/>
+
+            <TextView
+                android:id="@+id/tvCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoblack"
+                android:text="Telepon Selular"
+                android:textAlignment="center"
+                android:textColor="@color/floralwhite"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llWatsap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_toEndOf="@id/llTelpon"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibWeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/whatsapp"
+                android:clickable="false"/>
+
+            <TextView
+                android:id="@+id/tvWeak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoblack"
+                android:text="Whatsapp"
+                android:textAlignment="center"
+                android:textColor="@color/floralwhite"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llTombol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnCekLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tekan Melakukan Panggilan Darurrat"
+                tools:ignore="HardcodedText"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_toRightOf="@id/llWatsap"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ibEsemes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/esemes"
+                android:clickable="false"/>
+
+            <TextView
+                android:id="@+id/tvWEsemes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/robotoblack"
+                android:text="SMS"
+                android:textAlignment="center"
+                android:textColor="@color/floralwhite"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rtlMap"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintTop_toBottomOf="@id/rtlTelpon">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".PanggilActivity"
+            tools:ignore="RedundantNamespace" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rtlControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/rtlMap">
+        <TextView
+            android:id="@+id/tvHeadLatLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posisi Anda"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotoblacka"
+            android:textColor="@color/ghostwhite"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/tvLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoblack"
+            android:textColor="@color/floralwhite"
+            android:text="Latitude"
+            tools:ignore="HardcodedText"
+            android:textSize="15sp"
+            android:enabled="false"
+            android:layout_below="@+id/tvHeadLatLong"/>
+        <TextView
+            android:id="@+id/tvLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoblack"
+            android:textColor="@color/floralwhite"
+            android:text="Logitude"
+            tools:ignore="HardcodedText"
+            android:enabled="false"
+            android:layout_below="@+id/tvHeadLatLong"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/tvLatitude"/>
+        <TextView
+            android:id="@+id/tvHpuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoblack"
+            android:textColor="@color/floralwhite"
+            android:text="No Telpon"
+            tools:ignore="HardcodedText"
+            android:enabled="false"
+            android:layout_below="@+id/tvHeadLatLong"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/tvLongitude"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

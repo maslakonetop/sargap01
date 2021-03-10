@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".OtpActivity">
+    <RelativeLayout
+        android:id="@+id/rtlKonfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivLogoReg"
+            android:background="@drawable/logoicon"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvJudulRegtel"
+            android:text="Registrasi Telepon"
+            tools:ignore="HardcodedText"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/robotoblack"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ivLogoReg"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rtlKonfirm1"
+        app:layout_constraintTop_toBottomOf="@id/rtlKonfirm"
+        android:layout_marginTop="50dp">
+        <EditText
+            android:id="@+id/et_otp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan OTP dari SMS"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:fontFamily="@font/robotoblacka"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText" />
+
+        <ProgressBar
+            android:id="@+id/pb_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_otp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+
+        <Button
+            android:id="@+id/verify_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Periksa OTP"
+            android:textColor="#000000"
+            android:layout_below="@id/pb_bar"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_whitbg"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rtlKonfirm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/rtlKonfirm1"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivPocil"
+            android:background="@drawable/pocillantas"
+            android:layout_marginStart="25dp"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivWbk"
+            android:background="@drawable/wbk"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivPocil1"
+            android:background="@drawable/promoter"
+            android:layout_toEndOf="@+id/ivWbk"
+            android:layout_marginStart="45dp"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

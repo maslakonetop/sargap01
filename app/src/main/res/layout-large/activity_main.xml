@@ -1,53 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgdepan"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
-    <include
-        layout="@layout/menu_atas"
+    <TextView
+        android:id="@+id/tvJudulOTP"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btnpgl"
-        android:layout_width="255dp"
-        android:layout_height="268dp"
-        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:text="Memverifikasi Nomor Anda"
+        android:fontFamily="@font/robotoblacka"
+        android:textSize="25sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="113dp"
-        android:layout_marginTop="202dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="330dp"
-        android:background="@drawable/buttonsargap"
-        android:onClick="telpon"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
+        android:textColor="@color/ghostwhite"
+        tools:ignore="HardcodedText" />
 
+    <!--Edittext for getting users phone number-->
+    <EditText
+        android:id="@+id/idEdtPhoneOTP"
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="Masukan Nomor HP Anda"
+        android:textColorHint="	#FFFAFA"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:layout_below="@+id/tvJudulOTP"
+        tools:ignore="HardcodedText" />
+
+    <!--Button for getting OTP-->
     <Button
-        android:id="@+id/btninfo"
-        android:layout_width="22dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/tombolmenu"
-        android:onClick="info"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.978"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        android:id="@+id/idBtnGetOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtPhoneOTP"
+        android:layout_margin="10dp"
+        android:text="Dapatkan OTP"
+        android:textAllCaps="false"
+        android:background="@drawable/round_red"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        tools:ignore="HardcodedText" />
 
+    <!--Edittext for getting otp from user-->
+    <EditText
+        android:id="@+id/idEdtOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnGetOtp"
+        android:layout_marginTop="40dp"
+        android:hint="Enter OTP"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--button for verifying user OTP-->
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtOtp"
+        android:layout_margin="10dp"
+        android:text="Memeriksa OTP"
+        android:textAllCaps="false"
+        android:background="@drawable/round_red"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        tools:ignore="HardcodedText"/>
+
+</RelativeLayout>

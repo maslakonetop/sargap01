@@ -2,36 +2,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FF4500"
-    android:gravity="right"
-    android:padding="2dp">
+    android:background="@color/colorPrimary"
+    android:padding="2dp"
+    android:orientation="horizontal"
+    tools:ignore="RtlHardcoded">
 
-    <ImageButton
-        android:id="@+id/home"
+    <TextView
+        android:id="@+id/tvWelkom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:padding="10dp"
-        app:srcCompat="@drawable/ic_twotone_home_24"
-        tools:ignore="VectorDrawableCompat" />
+        android:text="Selamat Datang"
+        android:fontFamily="@font/robotoblack"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
 
-    <ImageButton
-        android:id="@+id/popup"
+    <TextView
+        android:id="@+id/tvGuest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:padding="10dp"
-        app:srcCompat="@drawable/ic_twotone_info_24"
-        tools:ignore="VectorDrawableCompat" />
-
-    <ImageButton
-        android:id="@+id/exit"
+        android:text="Guest"
+        android:fontFamily="@font/robotoblack"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        tools:ignore="HardcodedText" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:padding="10dp"
-        app:srcCompat="@drawable/ic_twotone_exit_to_app_24"
-        tools:ignore="VectorDrawableCompat" />
+        android:src="@drawable/user"
+        android:layout_marginLeft="170dp"/>
+
 </LinearLayout>

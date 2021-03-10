@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Project Aplikasi\\sarpolrescilacap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "D:\\Project Aplikasi\\ProjectBerjalan\\Mobile\\sarpolrescilacap\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\djonn\\.gradle\\caches\\transforms-2\\files-2.1\\6f2e4a6f709e76b3f66f483a961e9d8d\\mediarouter-1.2.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\djonn\\.gradle\\caches\\transforms-2\\files-2.1\\7d0a8571e53069672cc03a50bf7746ee\\mediarouter-1.2.2\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
